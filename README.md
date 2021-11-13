@@ -47,7 +47,7 @@ yarn install get-duplicate-css-selectors
 ```
 
 ```js
-const getDuplicateCssSelectors = require('getDuplicateCssSelectors')
+const getDuplicateCssSelectors = require('get-duplicate-css-selectors')
 const CSS = getDuplicateCssSelectors('./index.css')
 
 console.log(CSS.toString()) // .u-color-dark,.u-color-success
