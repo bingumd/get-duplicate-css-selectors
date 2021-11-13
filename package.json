@@ -1,0 +1,24 @@
+{
+  "name": "get-duplicate-css-selectors",
+  "version": "0.1.0",
+  "author": "bingumd <bingumd@gmail.com>",
+  "description": "Get duplicate css selectors",
+  "main": "index.js",
+  "homepage": "https://github.com/bingumd/get-duplicate-css-selectors",
+  "license": "MIT",
+  "repository": "bingumd/get-duplicate-css-selectors",
+  "keywords": [
+    "css",
+    "duplicate",
+    "selector",
+    "rules"
+  ],
+  "scripts": {
+    "test": "jest",
+    "update": "yarn upgrade-interactive --latest"
+  },
+  "devDependencies": {
+    "css": "^3.0.0",
+    "jest": "^27.3.1"
+  }
+}

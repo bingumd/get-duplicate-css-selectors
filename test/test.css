@@ -1,0 +1,23 @@
+.u-color-dark {
+    background: var(--color-dark);
+}
+
+.u-color-primary {
+    background: var(--color-primary);
+}
+
+.u-color-dark {
+    background: var(--color-light);
+}
+
+.u-color-success {
+    background: var(--color-success);
+}
+
+.u-color-info {
+    background: var(--color-info);
+}
+
+.u-color-success {
+    background: var(--color-danger);
+}
