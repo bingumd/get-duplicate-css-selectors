@@ -1,6 +1,6 @@
 {
   "name": "get-duplicate-css-selectors",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "author": "bingumd <bingumd@gmail.com>",
   "description": "Get duplicate css selectors",
   "main": "index.js",
@@ -18,7 +18,9 @@
     "update": "yarn upgrade-interactive --latest"
   },
   "devDependencies": {
-    "css": "^3.0.0",
     "jest": "^27.3.1"
+  },
+  "dependencies": {
+    "css": "^3.0.0"
   }
 }
