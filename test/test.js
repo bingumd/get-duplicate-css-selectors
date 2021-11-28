@@ -1,4 +1,4 @@
-const getDuplicateCssSelectors = require('..')
+const getDuplicateCssSelectors = require('../src')
 const FIXTURE = getDuplicateCssSelectors('./test/test.css')
 
 test('should export function', () => {
