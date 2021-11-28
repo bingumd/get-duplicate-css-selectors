@@ -6,14 +6,14 @@ module.exports = function getDuplicateCssSelectors(content = '') {
     const stylesheet = content.includes('.css') ? fs.readFileSync(content, 'utf8') : content
     const parsed = css.parse(stylesheet)
 
-    parsed.stylesheet.rules.forEach(current => {
+    parsed.stylesheet.rules.forEach((current) => {
         // Ignore non-rule types
         if (current.type !== 'rule') return
         // push selectors
         selectors.push(current.selectors.join(','))
     })
 
-    const findDuplicates = arr => {
+    const findDuplicates = (arr) => {
         let sortedArr = arr.slice().sort()
         let results = []
 
